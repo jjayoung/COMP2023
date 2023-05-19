@@ -1,0 +1,71 @@
+.hidden{
+    display:none;
+}
+@font-face {
+    font-family: "font";
+    src: url(../COMP2023/bingrae.ttf);
+}
+img {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+
+
+
+.wrapper{
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 47%;
+    top: 30%;
+    margin-left: -150px;
+    margin-top: 0px;
+    background-color: lavender;
+    color:navy;
+    font-family: "font";
+    
+}
+
+#todo-form{
+    position:relative;
+    top: -20px;
+}
+
+#todo-list{
+    list-style-type: none;
+    text-align: left;
+    position:relative;
+    top: -20px;
+    left: +50px;
+}
+
+#clock{
+    font-size: 300%;
+}
+
+#greeting{
+    font-size: 100%;
+    position:relative;
+    top: -20px;
+}
+
+#quote{
+    font-size: 85%;
+    position:relative;
+    bottom: +5px;
+}
+
+#weather{
+    font-size: 110%;
+    position:relative;
+
+}
